@@ -112,19 +112,19 @@ After completing the design, 8 processes in parallel are to be executed to see t
 Thus, for the main components, I have the following arrange for the project:
 ```
 crypto_visualizer/
-	data/
-		1_min_crypto_data.csv
-		2_min_crypto_data.csv
-		5_min_crypto_data.csv
-	processing/
-		ingestion_process.py
-		compute_process.py
-	visualize/
-		assets/
-			several png icons and files.png
-			app.py
-			main.py
-	README.md
+|-- data/
+	|-- 1_min_crypto_data.csv
+	|-- 2_min_crypto_data.csv
+	|-- 5_min_crypto_data.csv
+|-- processing/
+	|-- ingestion_process.py
+	|-- compute_process.py
+|-- visualize/
+	|-- assets/
+		|-- several png icons and files.png
+		|-- app.py
+		|-- main.py
+|-- README.md
 ```
 
 ## Authors
