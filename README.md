@@ -3,7 +3,7 @@ This is an end-to-end application with the purpose of ingesting, processing and 
 ![alt text](./visualize/assets/crypto_visualizer.png "Crypto Visualizer")
 
 This development implements several technologies:
-- Asyncronous web socket connections to data provider's API.
+- Asynchronous web socket connections to data provider's API.
 - Event streaming using Apache Kafka to transport data and communicate all the systems.
 - Data engineering with Pandas.
 - Web dashboard design and creation with Dash for live monitoring.
